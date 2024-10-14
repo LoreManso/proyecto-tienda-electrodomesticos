@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4cfd6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    background-color: #600eaccc;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    justify-content: flex-start;
+    
+}
+.hero div{
+    width: 50%;
+}
+.hero .btn {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero1 {
+    display: flex;
+    background-color: #d4cfd6;
+    color: #333;
+    padding: 30px;
+    text-align: center;
+    justify-content: flex-end;
+    
+}
+.hero1 div{
+    width: 50%;
+}
+.hero1 .btn {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero2 {
+    display: flex;
+    background-color: #600eaccc;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    justify-content: flex-start;
+    
+}
+.hero2 div{
+    width: 50%;
+}
+.hero2 .btn {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.destacados {
+    padding: 20px;
+    text-align: center;
+}
+
+.destacados h2 {
+    margin-bottom: 20px;
+}
+
+.productos-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 30%;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
